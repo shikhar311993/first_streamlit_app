@@ -13,7 +13,7 @@ import snowflake.connector
 # streamlit.dataframe(fruits_to_show)
 
 streamlit.header("Fruityvice Fruit Advice!")
-fruit_choice = streamlit.text_input('What fruit would you like information about?')
+fruit_choice = streamlit.text_input('What fruit would you like information about?','kiwi')
 streamlit.write('The user entered ', fruit_choice)
 
 
